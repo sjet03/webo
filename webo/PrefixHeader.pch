@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  webo
+//
+//  Created by ruanjianjulebu on 16/8/2.
+//  Copyright (c) 2016年 ruanjianjulebu. All rights reserved.
+//
+
+
+#ifndef TARGET_OS_IOS
+
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+
+#endif
+
+#ifndef TARGET_OS_WATCH
+
+#define TARGET_OS_WATCH 0
+
+#endif
